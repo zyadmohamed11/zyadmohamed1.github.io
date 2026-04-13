@@ -1,0 +1,49 @@
+<head>
+    <title>Add Course</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>personal Course Organizer</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="my courses.html">My Courses</a></li>
+                <li><a href="add-course.html" class="active">Add Course</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Add New Course</h2>
+            <form action="#">
+                <div style="margin-bottom: 15px;">
+                    <label>Course Name:</label><br>
+                    <input type="text" name="course" required style="width: 100%; padding: 8px;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label>Instructor:</label><br>
+                    <input type="text" name="instructor" required style="width: 100%; padding: 8px;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label>Credit Hours:</label><br>
+                    <input type="number" name="credits" min="1" max="5" style="width: 100%; padding: 8px;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label>Notes:</label><br>
+                    <textarea name="notes" rows="4" style="width: 100%; padding: 8px;"></textarea>
+                </div>
+                <button type="submit" style="padding: 10px 20px; cursor: pointer;">Save Course</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>2026 personal Course Organizer</p>
+    </footer>
+
+</body>
+</html>
